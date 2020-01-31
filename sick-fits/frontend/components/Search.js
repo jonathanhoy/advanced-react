@@ -68,6 +68,7 @@ class AutoComplete extends React.Component {
                         this.onChange(e, client);
                       },
                       id: "search",
+                      placeholder: "Search for an item",
                       className: this.state.loading ? 'loading': '',
                     })}
                   />
