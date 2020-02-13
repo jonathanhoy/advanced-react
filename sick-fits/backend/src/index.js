@@ -32,6 +32,7 @@ server.express.use(async (req, res, next) => {
   next();
 });
 
+// Start server
 server.start({
   cors: {
     credentials: true,
